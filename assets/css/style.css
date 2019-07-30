@@ -133,6 +133,10 @@ table th, td {
 	text-align: center!important;
 }
 
+table th {
+	background-color: #f4f4f4;
+}
+
 .footer__customer {
 	height: 100px;
 	margin-bottom: 78px;
@@ -287,4 +291,20 @@ table th, td {
 	width: 550px;
 	padding: 0 0 50px 0;
 	margin: auto;
+}
+
+/* search tambahan */
+.searchku {
+	border-radius: 25px;
+	float: right;
+	border: 0;
+	padding: 3px 35px;
+	width: 200px;
+	font-size: 15px;
+}
+
+.icon-search {
+	float: right;
+	color: #8D8D8D;
+	margin: 6px -27px 0 0;
 }

@@ -1,11 +1,4 @@
-<div id="headerku">
-	<img src="<?php echo base_url(); ?>assets/img/dyah/logo2-white.png" class="logoku">
-	<div class="text-right">
-		<img src="<?php echo base_url(); ?>assets/img/dyah/ic-logout.png" class="ic-logout">
-		<div class="isine text-left"><span><b>Bambang Nigger</b></span><br><span class="small">$123213213</span></div>
-		<img src="<?php echo base_url(); ?>assets/img/dyah/nigga.jpg" class="rounded-circle">
-	</div>
-</div>
+<?php include 'header.php' ?>
 <div class="containerku">
 	<div class="bar-1">
 		<img src="<?php echo base_url(); ?>assets/img/dyah/ic-customer.png"><span>Customer</span>
@@ -18,6 +11,7 @@
 			<h4>General Information</h4>
 			<hr>
 			<div class="form__customer">
+				<form>
 				<table width="100%;">
 					<tr>
 						<td width="15%">
@@ -90,6 +84,7 @@
 						</td>
 					</tr>
 				</table>
+				</form>
 			</div>
 		</div>
 	</div>

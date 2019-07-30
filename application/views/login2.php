@@ -30,8 +30,10 @@
 				<div class="separator"></div>
 				<h3>Welcome back!</h3>
 				<h4>Login to access the DBMS</h4>
-				<input type="text" name="" placeholder="Email"><br>
-				<input type="passowrd" name="" placeholder="Password"><br>
+				<form>
+					<input type="text" name="" placeholder="Email"><br>
+					<input type="passowrd" name="" placeholder="Password"><br>
+				</form>
 				<p class="small">did you forget your password? Click <span style="color: red;">here</span></p>
 				<button class="btn">Login</button>
 			</div>

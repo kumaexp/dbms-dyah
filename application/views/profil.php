@@ -1,11 +1,4 @@
-<div id="headerku">
-	<img src="<?php echo base_url(); ?>assets/img/dyah/logo2-white.png" class="logoku">
-	<div class="text-right">
-		<img src="<?php echo base_url(); ?>assets/img/dyah/ic-logout.png" class="ic-logout">
-		<div class="isine text-left"><span><b>Bambang Nigger</b></span><br><span class="small">$123213213</span></div>
-		<img src="<?php echo base_url(); ?>assets/img/dyah/nigga.jpg" class="rounded-circle">
-	</div>
-</div>
+<?php include 'header.php' ?>
 <div class="containerku">
 	<div class="bar-1">
 		<img src="<?php echo base_url(); ?>assets/img/dyah/ic-setting.png"><span>Profile</span>
@@ -33,6 +26,7 @@
 								<p>Phone Number</p>
 								<p>Role</p>
 							</div>
+							<form>
 							<div class="col-md-6 col-sm-6">
 								<input type="text" name="" placeholder="Bambang">
 								<input type="email" name="" placeholder="kardi@bambang.sch.id">
@@ -43,6 +37,7 @@
 									<option>Bambang</option>
 								</select>
 							</div>
+							</form>
 						</div>
 
 						<h4>Change Password</h4>
@@ -52,11 +47,13 @@
 								<p>New Password</p>
 								<p>Confirm Password</p>
 							</div>
+							<form>
 							<div class="col-md-6 col-sm-6 mbku">
 								<input type="text" name="" placeholder="********">
 								<input type="text" name="" placeholder="********">
 								<input type="text" name="" placeholder="********">
 							</div>
+							</form>
 						</div>
 					</div>
 				</div>
