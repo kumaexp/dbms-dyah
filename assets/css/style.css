@@ -241,7 +241,8 @@ table th, td {
 .konten-login h1 {
 	font-weight: bold;
 	color: #000;
-	margin-top: 80px;
+	margin-top: 60px;
+	padding-top: 30px;
 }
 
 .konten-login .separator {
@@ -274,4 +275,12 @@ table th, td {
 	margin-top: 50px;
 	letter-spacing: 2px;
 	background-image: linear-gradient(90deg, #E672C3, #9784FF);
+}
+
+.cardku {
+	background-color: #fff;
+	text-align: center;
+	width: 550px;
+	padding: 0 0 50px 0;
+	margin: auto;
 }
