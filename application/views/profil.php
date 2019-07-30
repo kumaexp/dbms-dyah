@@ -52,7 +52,7 @@
 								<p>New Password</p>
 								<p>Confirm Password</p>
 							</div>
-							<div class="col-md-6 col-sm-6">
+							<div class="col-md-6 col-sm-6 mbku">
 								<input type="text" name="" placeholder="********">
 								<input type="text" name="" placeholder="********">
 								<input type="text" name="" placeholder="********">
