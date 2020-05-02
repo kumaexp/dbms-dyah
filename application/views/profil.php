@@ -20,18 +20,18 @@
 					<div class="isi-section">
 						<h4>Personal Information</h4>
 						<div class="row" style="margin-top: 20px;">
-							<div class="col-md-3 col-sm-3">
+							<div class="col-md-3 col-sm-3 col">
 								<p>Name</p>
 								<p>Email</p>
 								<p>Phone Number</p>
 								<p>Role</p>
 							</div>
 							<form>
-							<div class="col-md-6 col-sm-6">
-								<input type="text" name="" placeholder="Bambang">
-								<input type="email" name="" placeholder="kardi@bambang.sch.id">
-								<input type="number" name="" placeholder="081353444342">
-								<select>
+							<div class="col-md-6 col-sm-6 col">
+								<input type="text" name="" placeholder="Bambang" class="tb-responsive"><br>
+								<input type="email" name="" placeholder="kardi@bambang.sch.id" class="tb-responsive"><br>
+								<input type="number" name="" placeholder="081353444342" class="tb-responsive"><br>
+								<select class="tb-responsive">
 									<option>Administrator</option>
 									<option>Rombeng</option>
 									<option>Bambang</option>
@@ -42,16 +42,16 @@
 
 						<h4>Change Password</h4>
 						<div class="row" style="margin-top: 20px;">
-							<div class="col-md-3 col-sm-3">
+							<div class="col-md-3 col-sm-3 col">
 								<p>Current Password</p>
 								<p>New Password</p>
 								<p>Confirm Password</p>
 							</div>
 							<form>
-							<div class="col-md-6 col-sm-6 mbku">
-								<input type="text" name="" placeholder="********">
-								<input type="text" name="" placeholder="********">
-								<input type="text" name="" placeholder="********">
+							<div class="col-md-6 col-sm-6 col mbku">
+								<input type="text" name="" placeholder="********" class="tb-responsive"><br>
+								<input type="text" name="" placeholder="********" class="tb-responsive"><br>
+								<input type="text" name="" placeholder="********" class="tb-responsive"><br>
 							</div>
 							</form>
 						</div>
